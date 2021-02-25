@@ -1,7 +1,7 @@
 body {
   margin: 0;
   position: fixed;
-  background: #EAD9D7;
+  background: black;
 }
 
 
@@ -12,7 +12,7 @@ body {
   left: 0vh;
     height: 80vh;
   width: 70vh;
-  background-color: #EAD9D7;
+  background-color: #b3b3b3;
 }
 
 
@@ -23,7 +23,7 @@ body {
   width: 580px;
   height: 170px;
   transform: skew(-60deg);
-  background: #BB9A96;
+  background: #585858;
 } 
 #parallel2 {
   position: absolute;
@@ -33,7 +33,7 @@ left: 375px;
   width: 700px;
   height: 300px;
   transform: rotate(-90deg) scaleX(-1) skew(-30deg);
-  background: #C6A7A4;
+  background: #777777;
   z-index: 3;
 
 }
@@ -46,7 +46,7 @@ left: 375px;
   left: 875px;
     height: 700px;
   width: 570px;
-  background-color: #E1CBC9;
+  background-color: #b3b3b3;
   z-index: 5;
 }
 #par-top {
@@ -55,7 +55,7 @@ left: 375px;
   left: 30px;
   font-size:40px;
 font-family: juniper-std, sans-serif;
-
+color: white;
 font-weight: 400;
 
 font-style: normal;
@@ -75,6 +75,7 @@ font-style: normal;
 font-family: juniper-std, sans-serif;
 font-weight: 400;
 font-style: normal;
+color: white;
   padding-right: 40%;
   z-index: 10;
   transform: skewX(1deg) skewY(-30deg);
@@ -91,6 +92,7 @@ font-style: normal;
   padding-left: 2%;
  padding-right: 62%;
  line-height: 1.5;
+ color: white;
 }
 #par2 {
 
@@ -104,6 +106,7 @@ font-style: normal;
   z-index: 10;
     padding-right: 5%;
  line-height: 1.5;
+  color: white;
 }
 
 @media (max-width: 600px) {
@@ -158,5 +161,4 @@ left: -70px;
 
 
 }
-
 
